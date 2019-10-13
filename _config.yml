@@ -1,5 +1,5 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
+title: Youngjin Kwak IT World!
 description: "A blog about lorem ipsum ..."
 baseurl: "/youngjin.github.io" # for test: remove string '/space-jekyll-template' to ''
 url: "https://kkan0615.github.io/youngjin.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
@@ -8,8 +8,8 @@ url: "https://kkan0615.github.io/youngjin.github.io/" # for test: remove string 
 username: Youngjin Kwak
 user_title: Youngjin Kwak - FullStack, Software Developer
 email: kkan0615@gmail.com
-twitter_username: loremipsum
-github_username:  https://github.com/kkan0615
+twitter_username: kkan0615
+github_username: kkan0615
 gplus_username:  loremipsum
 linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
@@ -59,13 +59,13 @@ links:
 
 # projects in header index
 projects:
-  - name: Everyone's banchan
+  - name: Everyone's banchan(Node Js)
     url: https://github.com/kkan0615/Everyones-Banchan
-  - name: Expense-dairy
+  - name: Expense-dairy (Node Js + Vue Js)
     url: https://github.com/kkan0615/expense-diary
-  - name: Study-site
+  - name: Study-site (Node Js)
     url: https://github.com/kkan0615/Study-Site
-  - name: Django-test
+  - name: Django-test (Django)
     url: https://github.com/kkan0615/Django-Project
 
 # exclude my node related stuff
