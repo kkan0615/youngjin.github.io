@@ -2,7 +2,7 @@
 layout: post
 title:  "C++의 네임스페이스(namespace)"
 image: ''
-date:   2019-10-13 20:00:00
+date:   2019-10-15 20:00:00
 tags:
 - C++
 description: 'Describe namespace of C++'
@@ -186,7 +186,8 @@ int main()
 
 {% endhighlight %}
 
-## 끝으로
-namespace를 사용 함으로써 다른 개발자가 만든 코드의 이름 충돌을 방지할 수 있습니다. 이러한 이유는 namespace는 자주 사용 됩니다.
+## 추가적으로
+namespace를 사용 함으로써 다른 개발자가 만든 코드의 이름 충돌을 방지할 수 있습니다.
 
+## 끝으로
 댓글, 이메일 등을 통해 언제든지 질문과 피드백 받습니다. 감사합니다.
