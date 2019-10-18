@@ -67,6 +67,7 @@ int& y = x; // y is reference to int
 5. 포인터는 주로 null 혹은 바뀔 수있는 경우에 사용한다.
 
 ## 몇가지 퀴즈
+
 1. ++pChar 혹은 ++pArray 가 맞는 표현인지 생각해보세요.
 {% highlight c++ %}
 char pArray[] = { 'a','b','c','d','e'}; char* pChar = pArray;
@@ -77,7 +78,7 @@ char pArray[] = { 'a','b','c','d','e'}; char* pChar = pArray;
 {% highlight c++ %}
 int a = 5, b = 7; int *p = &b; int &q = a; int** r = &p;
 {% endhighlight %}
-++*p: 8 , --q: 5, **r: int
+답: ++*p: 8 , --q: 5, **r: int
 
 ## 끝으로
 댓글, 이메일 등을 통해 언제든지 질문과 피드백 받습니다. 감사합니다.
