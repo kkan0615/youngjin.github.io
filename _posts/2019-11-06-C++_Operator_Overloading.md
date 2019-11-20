@@ -2,7 +2,7 @@
 layout: post
 title:  "C++ 연산자 오버로딩 Operator Overloading"
 image: ''
-date:   2016-03-12 00:06:31
+date:   2019-11-06 00:06:31
 tags:
 - c++
 description: ''
@@ -73,7 +73,7 @@ int main()
 1. = (assign opeartor 할당 연산자 )
 2. + - * /, % (arithmetic operator 이진 산술 연산자 )
 3. += -= *= /=, %= (복한 할당 연산자)
-4. ==, != || &&, >, < (비교 연산자, comparsion opertor)
+4. ==, != '||' &&, >, < (비교 연산자, comparsion opertor)
 5. new, new[], delete, delete[]
 6. <<, >>, <<=, >>=
 7. (), []
