@@ -108,6 +108,7 @@ puppeteer.launch([options])
 5. evaluate(): 데이터를 가공할 때 주로 사용합니다.
 6. $(selector): Selector를 가져옵니다.
 
+#### 추가본
 브라우저랑 페이지에 관해서는 여러 함수들이 있습니다. 아래에 나올 활용 예제를 이해하시면 다른 함수의 작동 원리 역시 이해하기 쉽습니다.
 <a href="https://github.com/puppeteer/puppeteer/blob/v2.0.0/docs/api.md#puppeteerlaunchoptions" target="_blank">여기</a>에서 더 많은 함수를 확인가능합니다.
 
