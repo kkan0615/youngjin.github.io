@@ -2,7 +2,7 @@
 layout: post
 title:  "[Vue js] Method Computed 그리고 Watch 설명과 사용법"
 image: ''
-date:   2019-12-18 00:06:31
+date:   2019-12-20 00:06:31
 tags:
 - Vue Js
 - javascript
