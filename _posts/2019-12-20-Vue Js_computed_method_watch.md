@@ -132,7 +132,7 @@ export default {
 <style lang="scss" scoped>
 
 </style>
-{% end highlight %}
+{% endhighlight %}
 
 ### 설명
 설명의 예시 1번과 비슷하기 때문에 패스
@@ -164,7 +164,7 @@ watch: {
             this.getMessage()
         }
   },
-{% end highlight %}
+{% endhighlight %}
 예시만 봐도 무엇을 의미하는지 알 수 있을 것이다.
 
 ## Reference
