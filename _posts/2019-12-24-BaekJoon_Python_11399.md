@@ -2,7 +2,7 @@
 layout: post
 title:  "[Python] 백준 11399"
 image: ''
-date:   2019-12-20 00:06:31
+date:   2019-12-24 00:06:31
 tags:
 - python
 - baekjoon

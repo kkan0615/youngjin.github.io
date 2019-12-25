@@ -2,7 +2,7 @@
 layout: post
 title:  "[Vue Js] v-show와 v-if 차이점 with 예시"
 image: ''
-date:   2019-12-20 00:06:31
+date:   2019-12-21 00:06:31
 tags:
 - Vue Js
 - javascript
