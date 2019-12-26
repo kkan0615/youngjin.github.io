@@ -19,7 +19,7 @@ categories:
 ### 1번
 내부 함수에서 외부함수의 변수 가져오기
 
-{% highlight javscript %}
+{% highlight javascript %}
 function outter() {
     var test = 'I am test statement';
     function inner() {
@@ -35,7 +35,7 @@ test라는 이름의 변수는 inner function 밖에 선언 되었으나 정상�
 ### 2번
 클로저는 외부함수가 리턴된 이후에도 변수에 접근 할 수 있다.
 
-{% highlight javscript %}
+{% highlight javascript %}
 function outter(title){
     let TotalTitle = 'Total Title: ';
     function inner(subTitle){
@@ -50,6 +50,7 @@ test("sub test") // Total Title: test Title sub test
 
 ### 3번
 내부함수를 이용하여 외붐함수의 변수를 변경 할 수 있다.
+{% highlight javascript %}
 function parameterReturns() {
     var test = 'test'; // 외부함수 변수
     // 모든 내부함수는 외부변수에 접근할 수 있습니다.
@@ -75,7 +76,7 @@ console.log(pr2.getTest()); // test 가 출력된다
 {% endhighlight %}
 
 ### 문제와 함께 생각해보기
-{% highlight javscript %}
+{% highlight javascript %}
 var arr = []
 for(var i = 0; i < 5; i++){
     arr[i] = function(){
