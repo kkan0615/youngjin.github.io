@@ -107,6 +107,7 @@ for(var index in arr) {
 {% endhighlight %}
 
 #### [추가] var대신 let을 사용 할 경우
+
 {% highlight javascript %}
 let arr = []
 for(let i = 0; i < 5; i++){
@@ -119,8 +120,7 @@ for(let i = 0; i < 5; i++){
 for(let index in arr) {
     console.log(arr[index]()); // 0 2 4 6 8
 }
-
-// 아래도 가능합니다.
+/* 아래도 가능합니다. */
 let arr = []
 for(let i = 0; i < 5; i++){
     arr[i] = function() {
@@ -132,7 +132,7 @@ for(let i = 0; i < 5; i++){
 for(let index in arr) {
     console.log(arr[index]()); // 0 1 2 3 4
 }
-{% endhighlight }
+{% endhighlight %}
 
 ## Reference
 1. https://opentutorials.org/course/743/6544 [생활 코딩]
