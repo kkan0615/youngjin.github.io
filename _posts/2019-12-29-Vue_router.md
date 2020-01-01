@@ -2,7 +2,7 @@
 layout: post
 title:  "[Vue] Vue js Router 사용법"
 image: ''
-date:   2019-12-26 00:06:31
+date:   2019-12-31 00:06:31
 tags:
 - javascript
 - vue js
@@ -355,7 +355,7 @@ export default new Router({
     ...test, // ...을 무조건 붙여야한다.
   ]
 })
-{% endhighlight }
+{% endhighlight %}
 
 ## Router를 통해 페이지 이동하기
 페이지를 이동하는 방법은 다양하다. 위의 예제들을 통해 적어보겠습니다.
