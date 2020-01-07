@@ -137,6 +137,18 @@ files || multipart 형식 폼에서 파일 필드의 최대 개수 || 무제한
 parts || multipart 형식 폼에서 fields와 파일을 합친 부분의 최대 개수 || 무제한
 headerPairs || multipart 형식 폼에서 파싱할 헤더의 key=>value 쌍의 최대 개수 || 2000
 
+## 이미지 로드하기
+{% highlight javascript %}
+/** app.js */
+// app.js에서 아래 라인을 추가해준다.
+app.use('/profileImage', express.static('uploads/profile'));
+{% endhighlight }
+
+{% highlight javascript %}
+/** client 에서 사용법 */
+<v-img :src="'http://localhost:8001/profileImage/' + imgName"></v-img>
+{% endhighlight }
+
 ## multer과 AWS 같이 사용해보기
 {% highlight javascript %}
 const multer = require('multer');
