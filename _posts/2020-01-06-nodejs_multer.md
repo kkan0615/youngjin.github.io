@@ -2,14 +2,14 @@
 layout: post
 title:  "[Node js] multer를 이용해 이미지 업로드하기"
 image: ''
-date:   2020-01-06 00:06:31
+date:   2020-01-07 00:06:31
 tags:
-- vue js
+- node js
 - javascript
-description: 'Learn Vue js'
+description: 'Learn Multer with Node js!'
 categories:
 - javascript
-- vue js
+- node js
 ---
 
 ## multer
@@ -77,15 +77,16 @@ upload.any() // 전달된 모든 형식의 파일을 받습니다. 모든 파일
 ## 파일에 들어 있는 정보
 req.file 혹은 req.files를 했을 때 각 파일에 저장된 정보입니다.
 Key	|| Description || Note
-fieldname || 폼에 정의된 필드 명 ||
-originalname || 사용자가 업로드한 파일 명 ||
-encoding || 파일의 엔코딩 타입 ||
-mimetype || 파일의 Mime 타입 ||
-size || 파일의 바이트(byte) 사이즈 ||
+fieldname || 폼에 정의된 필드 명 || x
+originalname || 사용자가 업로드한 파일 명 || x
+encoding || 파일의 엔코딩 타입 || x
+mimetype || 파일의 Mime 타입 || x
+size || 파일의 바이트(byte) 사이즈 || x
 destination || 파일이 저장된 폴더 || DiskStorage
 filename || destination 에 저장된 파일 명 || DiskStorage
 path || 업로드된 파일의 전체 경로 ||DiskStorage
 buffer || 전체 파일의 Buffer || MemoryStorag
+
 출처 : https://github.com/expressjs/multer/blob/master/doc/README-ko.md
 
 ## multer option 개체
