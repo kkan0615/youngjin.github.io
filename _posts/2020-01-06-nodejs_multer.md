@@ -157,9 +157,9 @@ const AWS = require('aws-sdk');
 const multerS3 = require('multer-s3');
 
 AWS.config.update({
-  region: region,
-  accessKeyId: S3 Acess Key ID를 적어주세요,
-  secretAccessKey: S3 Secret Access Key를 적어주세요,
+    region: region,
+    accessKeyId: S3 Acess Key ID를 적어주세요,
+    secretAccessKey: S3 Secret Access Key를 적어주세요,
 });
 
 const upload = multer({
