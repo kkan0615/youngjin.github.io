@@ -25,6 +25,7 @@ categories:
 브라우저 에서는 window 객체, Node 환경에서는 global객체이다.
 
 ## 1번 - 함수에서의 this
+
 ### 함수 실행 방법
 우선 함수 실행 방법부터 보자
 {% highlight javascript %}
@@ -38,6 +39,7 @@ console.log(test);
 {% endhighlight %}
 
 ### 1번 - 함수에서의 this
+
 {% highlight javascript %}
 function name(param) {
     if(this === window) {
@@ -53,6 +55,7 @@ console.log(window.message); // Window Message
 {% endhighlight %}
 
 ### strict mode(엄격 모드) 에서의 this
+
 {% highlight javascript %}
 function name(param) {
     'use strict'; // 함수에서 엄격 모드 사용
@@ -69,6 +72,7 @@ console.log(window.message); // error: window에 message가 저장되지 않았�
 {% endhighlight %}
 
 ### 내부 함수에서의 this
+
 {% highlight javascript %}
 function outer() {
     function inner() {
@@ -105,6 +109,7 @@ calculater.check(); // true
 생성자는 new 키워를 붙여야 한다. ES6 문법 부터는 class를 사용 할 수 있다. 이번 기회에 둘다 알아보자.'
 생성자 실행에서의 context(문맥)은 새롭게 만들어진 객체입니다. 주로 생성자로 객체의 초기값을 만들 때 사용합니다.
 ### 생성자에서의 this
+
 {% highlight javascript %}
 function person(_name, _age) {
     this.name = _name;
@@ -170,6 +175,7 @@ bind() 메소드와 함께 사용되며 이는 새로운 함수를 만드는 역
 bind() 메소드의 this는 strict mode(엄격 모드)일 때와 아닐 때 차이를 보인다.
 
 ### 엄격 모드가 아닐 때
+
 {% highlight javascript %}
 function nonstrictSum(num) {
     return this + num;
@@ -180,6 +186,7 @@ console.log(sumFive(10)); // 15
 console.log(sumFive(15)); // 20
 {% endhighlight %}
 ### 엄격 모드 일때
+
 {% highlight javascript %}
 function strictSum(num) {
     'use strct'; // 엄격 모드 사용
@@ -192,6 +199,7 @@ console.log(sumFive(15)); // 20
 {% endhighlight %}
 
 ### 각 모드에서 에러 발생시켜보기
+
 {% highlight javascript %}
 const calculater = {
     num: 0,
@@ -216,7 +224,9 @@ console.log(er()); // global 객체, false. 만약 엄격 모드 였다면 1번�
 
 ## 7번 - 화살표 함수에서의 this
 화살표 하무는 함수를 간단한 형태로 정의하거나 혹은 문백을 바인드 하기 위해 주로 사용된다.
+
 ### 일반적인 함수를 사용 했을 때
+
 {% highlight javascript %}
 let person = {
     name: "youngjin",
@@ -231,7 +241,9 @@ let person = {
 
 person.getName();
 {% endhighlight %}
+
 ### 화살표 함수를 사용 했을 때
+
 {% highlight javascript %}
 let person = {
     name: "youngjin",
