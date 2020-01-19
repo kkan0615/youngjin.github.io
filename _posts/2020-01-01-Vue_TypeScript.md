@@ -32,6 +32,7 @@ vue add typescript # 2번 이미 프로젝트가 있다면
 ## 설치 후 디렉토리
 설치 후 여러 파일과 폴더를 볼 수 있습니다. 설명들어갑니다.
 대체적으로 vue js와 비슷한 부분은 뺏습니다.
+
 파일명와 위치 || 설명
 tsconfig.json || typescript와 관련된 설정파일입니다.
 src/maints || main.js를 typescript와 한것입니다.
